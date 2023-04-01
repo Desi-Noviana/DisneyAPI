@@ -1,0 +1,27 @@
+﻿html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background: url('https://upload.wikimedia.org/wikipedia/commons/3/3e/Disney%2B_logo.svg')
+
+}
+body {
+    margin: 2em;
+}
+
+td:last-child {
+    text-align: center;
+}

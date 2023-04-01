@@ -1,0 +1,43 @@
+﻿
+<h1>Disney Character</h1>
+
+@*<ul id="listDisney">
+        <li></li>
+    </ul>*@
+
+<table id="myTable" class="table table-success table-striped">
+    <thead class="table-dark">
+        <tr>
+            <th>No</th>
+            <th>Character Name</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody id="tbodyDisney">
+    </tbody>
+
+</table>
+
+
+<!-- Modal -->
+<div class="modal fade" id="modalDisney" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Disney Character</h1>
+                <button type="button" class="btn-close btn-danger" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                ...
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@section Scripts{
+    <script src="~/js/ajax.js" asp-append-version="true"></script>
+}
